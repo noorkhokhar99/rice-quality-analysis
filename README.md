@@ -1,4 +1,4 @@
-# Rice quality analysis through image processing
+# Rice quality analysis OpenCV Python | Computer Vision
 ### Steps to run Code
 
 # python2.7 
