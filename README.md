@@ -1,14 +1,41 @@
 # Rice quality analysis through image processing
-We analyse the quality of rice by calculating the average length/breadth ratio for each rice grain. We use **Image processing** Based on this ratio, rice quality can be graded. This implementation is based on this [research paper](https://github.com/hkedia321/rice-quality-analysis/research-paper.pdf). We are using `openCV`, `numpy`, and `matplotlib` libraries in `Python 2`.
+### Steps to run Code
 
-## Running Locally
+# python2.7 
+
+- Clone the repository.
 ```
-- clone this repo
-- install the necessary libraries
-- run `python code.py`
+git clone https://github.com/noorkhokhar99/rice-quality-analysis.git
 ```
+- Goto the cloned folder.
+```
+cd rice-quality-analysis
 
-## Screenshots
-![Output](https://github.com/hkedia321/rice-quality-analysis/blob/master/screenshots/images.png)
+```
+- Upgrade pip with mentioned command below.
+```
+pip install --upgrade pip
+```
+- Install requirements with mentioned command below.
+```
+pip install -r requirements.txt
+```
+- Run the code with mentioned command below.
 
-![Terminal](https://github.com/hkedia321/rice-quality-analysis/blob/master/screenshots/terminal.png)
+`rice.py`
+
+ 
+
+
+<p align="center">
+<img src="https://github.com/noorkhokhar99/rice-quality-analysis/blob/main/screenshots/terminal.png">
+</p>
+
+
+<img src="https://github.com/noorkhokhar99/rice-quality-analysis/blob/main/screenshots/images.png">
+
+
+
+
+### Inference on a video:
+https://www.youtube.com/watch?v=G28s0FUqUys
